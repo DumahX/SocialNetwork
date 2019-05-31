@@ -1,0 +1,28 @@
+.navbar-home {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar-home a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar-home a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #87CEFA;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-home a {
+    float: none;
+    display: block;
+  }
+}
